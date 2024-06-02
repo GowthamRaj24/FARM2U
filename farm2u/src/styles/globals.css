@@ -1,0 +1,84 @@
+body {
+  scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+/* h1,h2,h3,h4,h5,h6,p,a,button{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+} */
+.loader_bg {
+  position: fixed;
+  z-index: 999999;
+  background: #ffffff;
+  width: 100vw;
+  height: 100%;
+  transition: all ease 0.5s;
+}
+.loader_block {
+  width: max-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.loader {
+  border: 0 soild transparent;
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo_preloader {
+  width: 5.2vw;
+  height: 5.2vw;
+  position: absolute;
+}
+.loader1 {
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loader1 img {
+  width: auto;
+  height: 100px;
+}
+.admin_nav_adjustment {
+  margin-left: 200px;
+  overflow: scroll;
+  min-height: 100vh;
+  padding: 0px 0px 20px 0px;
+}
+
+.admin_nav_adjustment {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.admin_nav_adjustment::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

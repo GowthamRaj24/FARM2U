@@ -1,0 +1,108 @@
+.cart_products_list_item {
+  display: flex;
+  width: 370px;
+  margin: 10px auto;
+  padding-bottom: 10px;
+}
+.cart_prodicts_item_underline {
+  width: 80%;
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.221);
+  margin: 0px auto;
+}
+.cart_products_list_item_image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cart_products_list_item_image img {
+  width: 80px;
+  height: auto;
+  margin:0px 10px 0px 5px;
+}
+.cart_products_list_items_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cart_products_list_items_content h6 {
+  margin: 5px 0px;
+  color: rgb(66, 66, 66);
+  font-size: 15px;
+}
+.cart_products_list_items_content h5 {
+  font-size: 14px;
+  margin: 5px 0px;
+}
+.cart_products_list_items_content h5 del {
+  color: rgb(234, 124, 27);
+}
+.cart_editing_buttons {
+  box-shadow: 1px 2px 20px rgba(191, 191, 191, 0.212);
+  width: max-content;
+  padding: 10px;
+  margin: 5px 0px;
+  display: flex;
+  height: 50px;
+  border-radius: 5px;
+}
+.cart_removefromcart_products,
+.cart_addtocart_products {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background: none;
+  margin: 0px 5px;
+  font-size: 20px;
+}
+.cart_editing_buttons p {
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+}
+
+@media screen and (max-width: 950px) {
+  .cart_products_list_items_content h5 {
+    font-size: 14px;
+    margin: 5px 0px;
+  }
+  .cart_products_list_items_content h6 {
+    font-size: 14px;
+  }
+  .cart_editing_buttons {
+    box-shadow: 1px 2px 20px rgba(191, 191, 191, 0.212);
+    width: max-content;
+    padding: 10px;
+    margin: 5px 0px;
+    display: flex;
+    height: 40px;
+  }
+  .cart_removefromcart_products,
+  .cart_addtocart_products {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: -5px;
+    font-size: 20px;
+  }
+  .cart_editing_buttons p {
+    padding: 2px;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .cart_products_list_item {
+    width: 75vw;
+  }
+  .cart_products_list_item_image img {
+    width: 60px;
+  }
+  .cart_products_list_items_content h5 {
+    font-size: 13px;
+    margin: 5px 0px;
+  }
+  .cart_products_list_items_content h6 {
+    font-size: 13px;
+  }
+}

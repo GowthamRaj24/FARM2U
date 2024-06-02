@@ -1,0 +1,483 @@
+.container {
+  margin: 20px;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.block {
+  width: 800px;
+  height: 400px;
+  display: flex;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.49);
+}
+.usernav {
+  width: 30%;
+  background-color: #031d08;
+  width: max-content;
+  height: 100%;
+}
+.usernav ul {
+  padding: 20px 20px;
+  list-style: none;
+}
+.usernav ul li {
+  padding: 10px;
+}
+.usernav ul li:hover {
+  border-left: 1px solid white;
+}
+.usernav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.usernav ul li button {
+  background: none;
+  border: none;
+  color: white;
+}
+.right_block {
+  width: 70%;
+  height: 100%;
+  background-color: #ffffff;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.right_block {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.right_block::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.dashboard,
+.changePassword {
+  margin: 20px;
+}
+.dashboard_contents {
+  display: flex;
+  align-items: center;
+}
+.heading {
+  padding: 10px;
+}
+.add_address {
+  color: white;
+  border: none;
+  background-color: #1e2940;
+  padding: 10px 15px;
+  margin: 10px 0px;
+}
+
+/*address*/
+.checkout_form {
+  width: 100%;
+}
+.checkout_form .form_group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.f_l_names {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+.c_s_p_div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.c_s_p_blocksiinput {
+  width: 100px;
+}
+.input {
+  padding: 5px 10px;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(193, 193, 193, 0.818);
+  border-radius: 5px;
+  outline: none;
+  margin: 5px 0px;
+}
+.input_ {
+  width: 98%;
+  padding: 5px 0px;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(193, 193, 193, 0.818);
+  border-radius: 5px;
+  outline: none;
+  margin: 5px 0px;
+}
+.fname {
+  margin-right: 5px;
+}
+.lname {
+  margin-left: 5px;
+}
+.info_submit,
+.changePasswordsubmit {
+  padding: 10px;
+  border: none;
+  box-shadow: 0px 0px 20px rgba(193, 193, 193, 0.25);
+  border-radius: 5px;
+  outline: none;
+  background-color: #29395a;
+  color: white;
+  margin: 10px 0px;
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+  border: 1px solid #1e2940;
+}
+.close {
+  padding: 10px;
+  border: none;
+  box-shadow: 0px 0px 20px rgba(193, 193, 193, 0.25);
+  border-radius: 5px;
+  outline: none;
+  background-color: white;
+  color: #1e2940;
+  border: 1px solid #1e2940;
+  margin: 10px 0px;
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.info_submit:hover {
+  color: #29395a;
+  background-color: white;
+  border: 1px solid #29395a;
+}
+.info_form_back_submit {
+  display: flex;
+  align-items: center;
+}
+.info_form_back_submit a {
+  text-decoration: none;
+}
+.form_group label {
+  margin: 5px 0px;
+  font-weight: 500;
+  color: rgba(41, 57, 90, 1);
+}
+.address_blocks {
+  margin: 20px 0px;
+  display: grid;
+  grid-template-columns: auto auto;
+  position: relative;
+}
+.address_block {
+  position: relative;
+  width: 95%;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.39);
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: 10px;
+}
+.newaddress {
+  margin: 10px;
+}
+.newaddress p {
+  margin: 0px;
+}
+.address_loader {
+  margin: 30px;
+  width: 100%;
+}
+.closebtn {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+/*change password*/
+.changePasswordForm {
+  display: flex;
+  flex-direction: column;
+}
+.changePasswordlabel {
+  display: flex;
+  flex-direction: column;
+}
+/* Orders */
+.orders {
+  padding: 15px;
+  position: relative;
+}
+.orders h5 {
+  font-size: 18px;
+}
+.orders_blocks {
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.342);
+  margin: 10px 0px;
+  padding: 5px;
+  border-radius: 10px;
+  position: relative;
+}
+.orders_blocks button {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  border: none;
+  margin: 10px;
+  background: none;
+  color: #3665c9;
+  font-size: 13px;
+}
+.order_block_products {
+  display: flex;
+  height: max-content;
+}
+.order_block_products_image{
+  width: 80px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+}
+.order_block_products_image img {
+  width: 100%;
+  height: auto;
+}
+.order_block_product {
+  margin: 10px 0px;
+}
+.order_block_product h6 {
+  font-size: 15px;
+  margin: 0px;
+}
+.order_block_product p {
+  margin: 0px;
+  font-size: 14px;
+}
+.order_id {
+  font-size: 13px;
+  color: grey;
+}
+.order_date {
+  font-size: 12px;
+  margin: 5px;
+  color: grey;
+}
+.orders_loader {
+  margin-top: 350px;
+}
+.orders_datanotfound {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.orders_datanotfound img {
+  width: 300px;
+  height: auto;
+}
+.extendeddiv {
+  padding: 15px 5px;
+  background-color: rgba(224, 224, 224, 0.212);
+  border-radius: 5px;
+}
+.extended_blocks {
+  margin: 15px 15px -15px 15px;
+}
+.extended_blocks h5 {
+  font-size: 15px;
+  margin: 3px 0px 0px 0px;
+  color: rgb(71, 71, 71);
+}
+.extended_blocks p {
+  color: rgb(77, 77, 77);
+  font-size: 13px;
+}
+.statusbar {
+  font-size: 14px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: 10px;
+  color: rgb(211, 95, 17);
+}
+.statusbar span {
+  color: rgb(56, 56, 56);
+}
+@media screen and (max-width: 950px) {
+  .block {
+    width: 80vw;
+    margin: 10px;
+  }
+  .usernav {
+    width: max-content;
+  }
+  .usernav ul {
+    padding: 10px;
+  }
+  .usernav ul li a {
+    font-size: 13px;
+  }
+  .right_block {
+    width: 100%;
+  }
+  .dashboard,
+  .changePassword {
+    margin: 20px;
+  }
+  .dashboard_contents {
+    display: flex;
+    align-items: center;
+  }
+  .dashboard h5 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .heading {
+    font-size: 12px;
+    padding: 5px;
+  }
+  .content {
+    font-size: 12px;
+    padding: 0px 10px;
+  }
+  .add_address {
+    font-size: 12px;
+  }
+  /*address*/
+  .checkout_form {
+    width: 100%;
+  }
+  .checkout_form .form_group {
+    width: 100%;
+  }
+  .f_l_names {
+    display: block;
+  }
+  .c_s_p_div {
+    display: block;
+  }
+  .c_s_p_blocksiinput {
+    width: 100px;
+  }
+  .input {
+    padding: 5px 10px;
+    margin: 2px 0px;
+  }
+  .input_ {
+    width: 100%;
+  }
+  .fname {
+    margin-right: 0px;
+  }
+  .lname {
+    margin-left: 0px;
+  }
+  .info_submit,
+  .changePasswordsubmit {
+    padding: 8px;
+    font-size: 12px;
+  }
+  .close {
+    padding: 8px;
+    font-size: 12px;
+  }
+  .address_blocks {
+    grid-template-columns: auto;
+  }
+  .address_block {
+    width: 95%;
+    margin: 5px;
+  }
+  .address_block p {
+    font-size: 12px;
+  }
+  .newaddress {
+    margin: 10px;
+  }
+  .newaddress p {
+    margin: 0px;
+  }
+  .address_loader {
+    margin: 30px;
+    width: 100%;
+  }
+  /*change password*/
+  .changePassword h5 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .changePasswordlabel {
+    font-size: 13px;
+    margin: 5px 0px;
+  }
+  /* Orders */
+  .orders h5 {
+    font-size: 16px;
+  }
+  .orders_blocks {
+    padding: 10px;
+  }
+  .orders_blocks button {
+    font-size: 12px;
+  }
+  .order_block_products {
+    display: flex;
+    height: max-content;
+    align-items: center;
+  }
+  .order_block_products_image {
+    width: 60px;
+    height: 60px;
+  }
+  .order_block_product {
+    margin: 10px 0px;
+  }
+  .order_block_product h6 {
+    font-size: 13px;
+    margin: 0px;
+  }
+  .order_block_product p {
+    font-size: 13px;
+  }
+  .order_id {
+    font-size: 12px;
+  }
+}
+.statusbar {
+  font-size: 13px;
+}
+@media screen and (max-width: 550px) {
+  .mobile_none {
+    display: none;
+  }
+  .block {
+    width: 94vw;
+  }
+  .usernav ul {
+    padding: 20px 5px;
+  }
+  .usernav ul li {
+    padding: 10px;
+  }
+  .statusbar {
+    margin: 13px;
+    font-size: 12px;
+  }
+  .orders_blocks button{
+    margin: 5px;
+  }
+  .orders_datanotfound img {
+    width: 150px;
+    height: auto;
+  }
+  .order_block_products_image{
+    width: 70px;
+    height: 50px;
+    overflow: hidden;
+  }
+}

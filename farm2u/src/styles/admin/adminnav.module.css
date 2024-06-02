@@ -1,0 +1,17 @@
+.adminnav {
+  width: 100%;
+  padding: 10px 30px;
+  box-shadow: 0px 0px 10px grey;
+}
+.adminnav_div {
+  width: 80vw;
+  margin: 0px auto;
+}
+.adminnav_div h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #042b04;
+}
+.adminnav_div p {
+  color: rgb(73, 73, 73);
+}

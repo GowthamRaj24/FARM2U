@@ -1,0 +1,12 @@
+.pagenotfound {
+  width: 100%;
+  text-align: center;
+  height: max-content;
+  color: 042b04;
+}
+.pagenotfound_container {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

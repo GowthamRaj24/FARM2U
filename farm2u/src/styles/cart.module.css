@@ -1,0 +1,175 @@
+.sidecart {
+  z-index: 20;
+  height: 100%;
+  width: 400px;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  transition: all ease 0.5s;
+  padding-top: 60px;
+}
+.sidecart_visible {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  box-shadow: 10px 100px 100000px black;
+}
+.sidecart_none {
+  position: fixed;
+  top: 0px;
+  right: -400px;
+}
+.sidecart a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.sidecart a:hover {
+  color: #242424;
+}
+.sidecart .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 30px;
+  margin-left: 50px;
+}
+.heading {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  font-size: 15px;
+}
+.sidecartcontainer {
+  z-index: 12;
+  position: fixed;
+  top: 0px;
+  height: 100%;
+  width: 100vw;
+  background-color: #5757572c;
+  transition: all ease 0.5s;
+}
+.sidecart_visible_container {
+  display: block;
+  cursor: pointer;
+}
+.sidecart_none_container {
+  display: none;
+}
+.cart_subtotal,
+.cart_total,
+.cart_discount {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.cart_subtotal p,
+.cart_total p,
+.cart_discount p {
+  font-size: 14px;
+  color: #042b04;
+}
+.cart_subtotal p {
+  font-weight: 700;
+}
+.cart_subtotal h5 {
+  font-size: 15px;
+  color: rgb(186, 81, 20);
+}
+.cart_checkout {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #042b04;
+  background: white;
+  color: #042b04;
+  font-weight: 600;
+  font-size: 14px;
+}
+.cart_checkout:hover {
+  background-image: -webkit-linear-gradient(0deg, #042b04 0%, #1f9236 100%);
+  color: white;
+}
+.cart_bottom_container {
+  background-color: white;
+  width: 90%;
+  margin-top: 30px;
+  position: absolute;
+  bottom: 0px;
+  left: 5%;
+  bottom: 20px;
+}
+.cart_items {
+  height: 50vh;
+  overflow: hidden;
+}
+.cart_items_list {
+  height: 100%;
+  overflow-y: scroll;
+}
+.cart_items_list {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.cart_items_list::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.cart_empty_div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cart_empty_div p {
+  font-weight: 500;
+  text-align: center;
+  margin: 10px;
+}
+.cart_empty_div img {
+  width: 80%;
+  height: auto;
+}
+
+@media screen and (max-width: 1350px) {
+  .sidecart {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 950px) {
+
+}
+@media screen and (max-width: 550px) {
+  .sidecart {
+    width: 80vw;
+  }
+  .sidecart_none {
+    right: -80vw;
+  }
+  .sidecart .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 25px;
+    margin-left: 50px;
+  }
+  .heading {
+    font-size: 13px;
+    top: 25px;
+    left: 15px;
+  }
+  .cart_subtotal p {
+    font-size: 12px;
+  }
+  .cart_subtotal h5 {
+    font-size: 13px;
+  }
+  .cart_checkout {
+    font-size: 13px;
+  }
+  .cart_items {
+    height: 60vh;
+  }
+}

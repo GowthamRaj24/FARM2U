@@ -1,0 +1,228 @@
+.nav_orders {
+  width: 1100px;
+  margin: 0px auto;
+}
+.nav_orders ul {
+  list-style: none;
+  display: flex;
+}
+.nav_orders ul .notactive {
+  font-weight: 500;
+  padding-bottom: 10px;
+  margin: 20px 20px 0px 0px;
+  color: grey;
+  cursor: pointer;
+}
+.nav_orders ul .notactive:hover {
+  border-bottom: 1px solid grey;
+}
+.nav_orders ul .active {
+  cursor: pointer;
+  font-weight: 500;
+  padding-bottom: 10px;
+  margin: 20px 20px 0px 0px;
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+.invetory_entire {
+  margin: 20px auto;
+  width: 1100px;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.349);
+  padding: 10px;
+  border-radius: 10px;
+}
+.invetory_entire .table {
+  width: 100%;
+  position: relative;
+}
+.loader {
+  margin-top: 200px;
+}
+.invetory_entire .table .first_table_th {
+  margin: 0px 2px;
+  font-size: 13px;
+  border-radius: 10px 0px;
+  background-color: #042b04;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+}
+.invetory_entire .table .first_table_td {
+  max-width: 10vw;
+  text-align: center;
+  padding: 10px 15px;
+  border-bottom: 0.3px solid rgba(128, 128, 128, 0.185);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13px;
+}
+.table2 {
+  border-collapse: collapse;
+  width: 25vw;
+}
+.second_table_th {
+  font-size: 13px;
+  background-color: #042b04;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+}
+.second_product_td {
+  text-align: center;
+  display: flex;
+  width: 20vw;
+  align-items: center;
+  margin: 5px;
+  border-bottom: 0.3px solid rgba(128, 128, 128, 0.164);
+}
+.second_product_td img {
+  width: 40px;
+  height: 40px;
+}
+.second_product_td p {
+  text-align: left;
+  margin: 0px 10px;
+}
+.second_p_td {
+  font-size: 13px;
+  text-align: center;
+  border-bottom: 0.3px solid rgba(128, 128, 128, 0.164);
+  margin: 0px;
+}
+.collapsed_div {
+  width: 90%;
+  display: flex;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.363);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px auto;
+}
+.collapsed_div_products {
+  width: max-content;
+}
+.collapsed_div_products h6 {
+  font-size: 15px;
+  margin: 5px;
+}
+.collapsed_div_address {
+  width: max-content;
+}
+.collapsed_div_address h6 {
+  font-size: 15px;
+  margin: 10px;
+}
+.table3 {
+  display: flex;
+  border-collapse: collapse;
+  margin: 20px 0px;
+}
+.table3_th {
+  border: 0.2px solid rgb(255, 255, 255);
+  display: flex;
+  padding: 5px;
+  background-color: #042b04;
+  color: white;
+  font-size: 13px;
+}
+.table3_td {
+  width: 23vw;
+  border: 0.2px solid rgba(128, 128, 128, 0.123);
+  padding: 5px;
+  display: flex;
+  font-size: 13px;
+}
+.table4 {
+  width: max-content;
+  margin: 65px 0px;
+}
+.table4_th {
+  background-color: #042b04;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+}
+.table4_td {
+  font-size: 13px;
+  padding: 10px;
+  text-align: center;
+}
+.table4_td_btn {
+  padding: 10px 15px;
+  border: 1px solid #b85c06;
+  background-color: #b85c06;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+.table4_td_btn:hover {
+  background-color: white;
+  color: #b85c06;
+}
+.table4_td_btn_close {
+  padding: 10px 15px;
+  border: 1px solid #9b9b9b;
+  background-color: white;
+  color: rgb(117, 117, 117);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+.table4_td_btn_save {
+  padding: 10px 15px;
+  border: 1px solid rgb(7, 124, 26);
+  background-color: rgb(7, 124, 26);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+.table4_td_dsb {
+  padding: 10px 15px;
+  border: 1px solid rgba(97, 97, 97, 0.404);
+  background-color: rgb(255, 255, 255);
+  color: rgba(97, 97, 97, 0.397);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+.table4_inp {
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.466);
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+}
+.nodatafound {
+  width: max-content;
+  margin: 0px auto;
+}
+.nodatafound img {
+  width: 15vw;
+  height: auto;
+}
+.overView{
+  width: 1100px;
+  margin: 0px auto;
+  display: flex;
+}
+.overView_blocks{
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(213, 213, 213);
+  margin: 10px;
+  width: 200px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.overView_blocks h3{
+  color: grey;
+  font-size: 13px;
+}
+.overView_blocks p{
+  font-size: 25px;
+  color: rgb(129, 129, 129);
+}

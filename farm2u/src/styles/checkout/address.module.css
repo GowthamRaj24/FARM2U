@@ -1,0 +1,329 @@
+.company_logo {
+  width: 180px;
+  height: auto;
+}
+.checkout_container {
+  height: max-content;
+  overflow: hidden;
+  display: flex;
+  width: max-content;
+  margin: 50px auto;
+  padding: 5px;
+}
+.checkout_form_container {
+  margin-right: 1vw;
+}
+.checkout_form_container h3 {
+  margin: 10px 0px;
+  font-weight: 500;
+  font-size: 17px
+}
+.checkout_form {
+  width: 600px;
+}
+.checkout_form .form_group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.f_l_names {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+.c_s_p_div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.c_s_p_blocksiinput {
+  width: 100px;
+}
+.form_group label{
+  font-size: 14px;
+  margin: 5px 0px;
+  font-weight: 500;
+  color: rgba(41, 57, 90, 1);
+}
+.input {
+  padding: 15px 20px;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(193, 193, 193, 0.818);
+  border-radius: 5px;
+  outline: none;
+  margin: 5px 0px;
+  font-size: 14px;
+}
+.input_ {
+  padding: 15px 0px;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(193, 193, 193, 0.818);
+  border-radius: 5px;
+  outline: none;
+  margin: 5px 0px;
+  font-size: 14px;
+}
+.state {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.fname {
+  margin-right: 5px;
+}
+.lname {
+  margin-left: 5px;
+}
+.info_submit {
+  float: right;
+  padding: 15px 20px;
+  border: none;
+  box-shadow: 0px 0px 20px rgba(193, 193, 193, 0.25);
+  border-radius: 5px;
+  outline: none;
+  background-image: -webkit-linear-gradient(0deg, #042b04 0%, #094009 100%);
+  color: white;
+  margin: 10px 0px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.info_submit:hover {
+  color: #042b04;
+  background: white;
+  border: 1px solid #042b04;
+}
+.info_form_back_submit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info_form_back_submit a {
+  text-decoration: none;
+  font-size: 14px;
+}
+.form_group_checkbox {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+  margin: 5px 0px;
+  border-radius: 5px;
+}
+.checkbox:checked {
+  background-color: #042b04;
+}
+.form_group_checkbox p {
+  margin: 0px 10px;
+  font-weight: 500;
+  color: 042b04;
+}
+.savedadress {
+  margin: 10px 0px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.selectaddress {
+  margin: 5px 0px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border: 1px solid rgba(128, 128, 128, 0.331);
+  border-radius: 5px;
+}
+.selectaddress .shipto {
+  padding: 10px;
+  color: grey;
+}
+.selectaddress .shiptoaddress {
+  padding: 10px;
+}
+.selectaddress input {
+  margin: 10px;
+}
+.qr_div{
+  width: max-content;
+  margin:15px auto;
+}
+.gpay_qr{
+  width: 350px;
+  height: auto;
+}
+@media screen and (max-width: 1350px) {
+  .checkout_form {
+    width: 500px;
+  }
+  .input {
+    padding: 10px 15px;
+  }
+  .input_ {
+    padding: 10px 0px;
+    width:100%;
+    }
+  .state {
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 150px;
+  }
+  .info_submit {
+    float: right;
+    padding: 10px 15px;
+  }
+  .info_form_back_submit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .info_form_back_submit a {
+    text-decoration: none;
+  }
+  .form_group label {
+    margin: 5px 0px;
+    font-weight: 500;
+    color: rgba(41, 57, 90, 1);
+  }
+  .form_group_checkbox {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+  }
+  .checkbox {
+    width: 20px;
+    height: 20px;
+    margin: 5px 0px;
+    border-radius: 5px;
+  }
+  .checkbox:checked {
+    background-color: #29395a;
+  }
+  .form_group_checkbox p {
+    margin: 0px 10px;
+    font-weight: 500;
+    color: rgba(41, 57, 90, 1);
+  }
+  .savedadress {
+    margin: 10px 0px;
+    font-weight: 500;
+  }
+  .selectaddress {
+    margin: 5px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border: 1px solid rgba(128, 128, 128, 0.331);
+    border-radius: 5px;
+  }
+  .selectaddress .shipto {
+    padding: 10px;
+    color: grey;
+  }
+  .selectaddress .shiptoaddress {
+    padding: 10px;
+  }
+  .selectaddress input {
+    margin: 10px;
+  }
+  
+}
+@media screen and (max-width: 950px) {
+  .company_logo {
+    width: 160px;
+    margin: 0px 5px;
+  }
+  .checkout_container {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100vw;
+    overflow: hidden;
+    margin: 50px auto;
+  }
+  .checkout_form_container {
+    margin: 10px;
+  }
+  .checkout_form_container h3 {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 5px;
+  }
+  .checkout_form {
+    width: 90vw;
+    margin: 0px 2vw;
+  }
+  .checkout_form .form_group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .f_l_names {
+    width: 100%;
+  }
+  .c_s_p_div {
+    width: 100%;
+  }
+  .input {
+    padding: 10px 15px;
+  }
+  .input_ {
+    padding: 10px 0px;
+  }
+  .info_submit {
+    float: right;
+    padding: 15px 20px;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(193, 193, 193, 0.25);
+    border-radius: 5px;
+    outline: none;
+    background-color: #29395a;
+    color: white;
+    margin: 10px 0px;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+  }
+  .info_submit:hover {
+    color: #29395a;
+    background-color: white;
+    border: 1px solid #29395a;
+  }
+  .info_form_back_submit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .info_form_back_submit a {
+    font-size: 13px;
+  }
+  .form_group label {
+    margin: 5px 0px;
+  }
+  .checkbox:checked {
+    background-color: #29395a;
+  }
+  .selectaddress {
+    margin: 5px 0px;
+  }
+  .selectaddress p {
+    font-size: 13px;
+  }
+  .selectaddress .shipto {
+    padding: 10px;
+    color: grey;
+    font-size: 13px;
+  }
+  .gpay_qr{
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .f_l_names {
+    width: 50%;
+  }
+  .c_s_p_div {
+    width: 100%;
+  }
+  
+  .gpay_qr{
+    width: 250px;
+  }
+}
