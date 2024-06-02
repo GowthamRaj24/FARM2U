@@ -28,7 +28,7 @@ const Cart = () => {
       return;
     }
     if (!session) {
-      router.push("/");
+      router.push("/login");
     }
   }, [session, sessionStatus, router]);
   const fetchdata = async () => {
